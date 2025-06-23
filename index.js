@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>Galeri Gambar</h1>
-
+  
   <div class="gallery">
     <div class="item">
       <a href="gambar1.jpg" target="_blank">
