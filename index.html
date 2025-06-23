@@ -3,31 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeri Gambar Download</title>
+  <title>Galeri Popup</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <h1>Galeri Gambar</h1>
 
   <div class="gallery">
-    <div class="item">
-      <a href="gambar1.jpg" target="_blank">
-        <img src="gambar1.jpg" alt="Gambar 1">
-      </a>
-      <div class="desc">
-        <p>Gambar Keren 1</p>
-        <a href="gambar1.jpg" download>Download</a>
-      </div>
-    </div>
+    <img src="gambar1-thumb.jpg" alt="Gambar 1" class="thumbnail" data-full="gambar1.jpg" data-hd="gambar1-hd.jpg" data-small="gambar1-thumb.jpg">
+    <img src="gambar2-thumb.jpg" alt="Gambar 2" class="thumbnail" data-full="gambar2.jpg" data-hd="gambar2-hd.jpg" data-small="gambar2-thumb.jpg">
+  </div>
 
-    <div class="item">
-      <a href="gambar2.jpg" target="_blank">
-        <img src="gambar2.jpg" alt="Gambar 2">
-      </a>
-      <div class="desc">
-        <p>Gambar Keren 2</p>
-        <a href="gambar2.jpg" download>Download</a>
-      </div>
+  <!-- Overlay Popup -->
+  <div id="popup" class="popup">
+    <span class="close">&times;</span>
+    <img id="popup-img" src="" alt="Popup Gambar">
+    <div class="popup-buttons">
+      <a id="download-hd" href="" download>Download HD</a>
+      <a id="download-small" href="" download>Download Kecil</a>
     </div>
   </div>
 
