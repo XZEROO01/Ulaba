@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Popup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Galeri Gambar</h1>
+
+  <div class="gallery">
+    <img src="gmbr/gambar1-thumb.jpg"
+         alt="Gambar 1"
+         class="thumbnail"
+         data-full="gmbr/gambar1.jpg"
+         data-gratis="https://example.com/gratis1"
+         data-berbayar="https://example.com/berbayar1"
+         data-foto="82"
+         data-video="49">
+
+    <img src="gmbr/gambar2-thumb.jpg"
+         alt="Gambar 2"
+         class="thumbnail"
+         data-full="gmbr/gambar2.jpg"
+         data-gratis="https://example.com/gratis2"
+         data-berbayar="https://example.com/berbayar2"
+         data-foto="12"
+         data-video="7">
+  </div>
+
+  <!-- Overlay Popup -->
+  <div id="popup" class="popup">
+    <span class="close">&times;</span>
+    <img id="popup-img" src="" alt="Popup Gambar">
+    <div id="popup-info" class="popup-info"></div>
+    <div class="popup-buttons">
+      <a id="btn-gratis" href="" target="_blank">GRATIS</a>
+      <a id="btn-berbayar" href="" target="_blank">BERBAYAR</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
