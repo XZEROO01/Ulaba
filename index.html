@@ -2,46 +2,59 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeri Popup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMP Negeri 1 Nusantara</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>smpn1 sine</h1>
+  <header>
+    <h1>SMP Negeri 1 Nusantara</h1>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#guru">Guru</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
 
-  <div class="gallery">
-    <img src="gmbr/nopal8a-thumb.jpg"
-         alt="nopal8a"
-         class="thumbnail"
-         data-full="gmbr/nopal8a.jpg"
-         data-gogel="https://google.com"
-         data-gogel="https://google.com"
-         data-foto="3"
-         data-video="3">
+  <section id="beranda">
+    <h2>Selamat Datang!</h2>
+    <p>SMP Negeri 1 Nusantara adalah sekolah menengah pertama unggulan dengan visi membentuk generasi cerdas dan berakhlak mulia.</p>
+  </section>
 
-    <img src="gmbr/gambar2-thumb.jpg"
-         alt="Gambar 2"
-         class="thumbnail"
-         data-full="gmbr/gambar2.jpg"
-         data-gratis="https://example.com/gratis2"
-         data-berbayar="https://example.com/berbayar2"
-         data-foto="12"
-         data-video="7">
-    <div style="position: fixed; bottom: 10px; width: 100%; text-align: center; font-size: 12px; color: #333;">
-  web by rafzz yg ganteng🗿
-    </div>
+  <section id="profil">
+    <h2>Profil Sekolah</h2>
+    <p>Didirikan tahun 2003, berlokasi di pusat kota. Memiliki program unggulan: Kelas Tahfidz, IT, dan Sains.</p>
+  </section>
 
-  <!-- Overlay Popup -->
-  <div id="popup" class="popup">
-    <span class="close">&times;</span>
-    <img id="popup-img" src="" alt="Popup Gambar">
-    <div id="popup-info" class="popup-info"></div>
-    <div class="popup-buttons">
-      <a id="btn-gratis" href="" target="_blank">GRATIS</a>
-      <a id="btn-berbayar" href="" target="_blank">BERBAYAR</a>
-    </div>
-  </div>
+  <section id="guru">
+    <h2>Tenaga Pengajar</h2>
+    <ul>
+      <li>Ibu Endang – Kepala Sekolah</li>
+      <li>Bapak Arif – Guru Matematika</li>
+      <li>Ibu Lina – Guru Bahasa Inggris</li>
+      <li>Bapak Dedi – Guru IPA</li>
+    </ul>
+  </section>
+
+  <section id="galeri">
+    <h2>Galeri Kegiatan</h2>
+    <img src="https://via.placeholder.com/300x200" alt="Upacara Bendera">
+    <img src="https://via.placeholder.com/300x200" alt="Lomba Sains">
+    <img src="https://via.placeholder.com/300x200" alt="Kegiatan Pramuka">
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: smpn1nusantara@example.com</p>
+    <p>Alamat: Jl. Pendidikan No.123, Kota Nusantara</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SMP Negeri 1 Nusantara</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
